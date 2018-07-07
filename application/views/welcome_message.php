@@ -42,7 +42,7 @@
             <li id="menu_active"><a href="<?php echo base_url(); ?>">Home</a></li>
             <li><a href="<?php echo site_url('Ourmission'); ?>">Our Mission</a></li>
             <li><a href="<?php echo site_url('News'); ?>">Campaign</a></li>
-            <li><a href="help.html">How to Help</a></li>
+            <li><a href="help.html">News</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
@@ -83,32 +83,32 @@
           <div class="line1">
             <div class="line2 wrapper">
               <section class="col1">
-                <h2><strong>C</strong>ampaign<span> Satu</span></h2>
+                <h2><strong>L</strong>ahan Kritis<span> Terbengkalai di Kabupaten Bogor</span></h2>
                 <div class="pad_bot1">
-                  <figure><img src="images/page1_img1.png" alt=""></figure>
+                  <figure><img src="<?php echo base_url(); ?>assets/images/page1_img1.png" alt=""></figure>
                 </div>
-                Hope Center is one of free website tem- plates by TemplateMonster.com, opti- mized for 1024X768 res. <a href="#" class="button1">Read More</a> </section>
+                Lahan seluas 1 Hektar, dalam kondisi kritis. Terletak di perbukitan curam, diatas perkampungan warga<a href="<?php echo site_url('Single'); ?>" class="button1">Read More</a> </section>
               <section class="col1 pad_left1">
-                <h2 class="color2"><strong>C</strong>ampaign<span> Dua</span></h2>
+                <h2 class="color2"><strong>W</strong>akaf Hutan<span> Untuk Habitat Orang Utan</span></h2>
                 <div class="pad_bot1">
-                  <figure><img src="images/page1_img2.png" alt=""></figure>
+                  <figure><img src="<?php echo base_url(); ?>assets/images/page1_img2.png" alt=""></figure>
                 </div>
-                This Hope Center Template goes with two packages – with PSD source files and without them.<a href="#" class="button1 color2">Read More</a> </section>
+                Orang Utan hewan khas pulau sumatera dan kalimantan yang terancam punah, akibat semakin berkurangnya habitatnya. Karena pengalihan fungsi hutan menjadi perkebunan.<a href="#" class="button1 color2">Read More</a> </section>
               <section class="col1 pad_left1">
-                <h2 class="color3"><strong>C</strong>ampaign<span> Tiga</span></h2>
+                <h2 class="color3"><strong>S</strong>elamatkan Hutan<span>Gunung Slamet</span></h2>
                 <div class="pad_bot1">
-                  <figure><img src="images/page1_img3.png" alt=""></figure>
+                  <figure><img src="<?php echo base_url(); ?>assets/images/page1_img3.png" alt=""></figure>
                 </div>
-                This website template has several pages:<a href="index.html" class="link1">Home</a>,<a href="<?php echo site_url('Ourmission'); ?>" class="link1">Our Mission</a>,<a href="news.html" class="link1">News and Press</a>,<a href="help.html" class="link1">How to Help</a>,<a href="contact.html" class="link1">Contact Us</a>.<a href="#" class="button1 color3">Read More</a> </section>
+                Cagar alam kaki gunung slamet terancam rusak karena pembangunan proyek PLTPB, tanda tangani petisi tolak Deforestasi<a href="#" class="button1 color3">Read More</a> </section>
             </div>
           </div>
         </div>
       </div>
-      <div class="wrapper">
+      <!-- <div class="wrapper">
         <h3>Our Mission</h3>
         <p class="quot"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid- idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerci- tation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.<img src="images/quot2.png" alt=""> </p>
-      </div>
-      <div class="wrapper">
+      </div> -->
+      <!-- <div class="wrapper">
         <div class="box2">
           <div class="line1">
             <div class="line2 wrapper">
@@ -130,12 +130,12 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </article>
     <!-- / content -->
     <!-- footer -->
     <footer>
-      <div class="wrapper"> <a href="index.html" id="footer_logo"><span>Hope</span>Center</a>
+      <div class="wrapper"> <a href="index.html" id="footer_logo"><span>Wakaf Hutan</span>Center</a>
         <ul id="icons">
           <li><a href="#" class="normaltip"><img src="images/icon1.gif" alt=""></a></li>
           <li><a href="#" class="normaltip"><img src="images/icon2.gif" alt=""></a></li>
@@ -145,17 +145,17 @@
       <div class="wrapper">
         <nav>
           <ul id="footer_menu">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="mission.html">Our Mission</a></li>
-            <li><a href="news.html">News &amp; Press</a></li>
-            <li><a href="help.html">How to Help</a></li>
+            <li class="active"><a href="news.html">News &amp; Press</a></li>
+            <li><a href="help.html">News</a></li>
             <li class="end"><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
         <div class="tel"><span>+1 800</span>123 45 67</div>
       </div>
-      <div id="footer_text">Copyright &copy; <a href="#">Domain Name</a> All Rights Reserved<br>
-        Design by <a target="_blank" href="http://www.templatemonster.com/">TemplateMonster.com</a></div>
+      <div id="footer_text">Copyright &copy; <a href="#">2018</a> All Rights Reserved<br>
+        Design by <a target="_blank" href="http://www.templatemonster.com/">wakafhutan.com</a></div>
     </footer>
     <!-- / footer -->
   </div>

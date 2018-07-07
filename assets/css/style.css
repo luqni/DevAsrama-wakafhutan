@@ -612,3 +612,25 @@ footer nav {
 	font:12px "Trebuchet MS", Arial, Helvetica, sans-serif;
 	height:91px
 }
+.button3 {
+	display:inline-block;
+	font-size:30px;
+	color:#000000;
+	text-transform:uppercase;
+	text-decoration:none;
+	padding:0 25px;
+	height:36px;
+	line-height:39px;
+	font-weight:800;
+	background:url(../images/button1_bg.gif) top repeat-x;
+	letter-spacing:-1px
+}
+.button3.color3 {
+	background-image:url(../images/button2_bg.gif)
+}
+.button3.color3 {
+	background-image:url(../images/button3_bg.gif)
+}
+.button3:hover {
+	background:#ff0010
+}

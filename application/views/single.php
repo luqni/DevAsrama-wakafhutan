@@ -39,9 +39,9 @@
         </nav>
         <nav>
           <ul id="menu">
-            <li id="menu_active"><a href="<?php echo base_url(); ?>">Home</a></li>
+            <li ><a href="<?php echo base_url(); ?>">Home</a></li>
             <li><a href="<?php echo site_url('Ourmission'); ?>">Our Mission</a></li>
-            <li><a href="<?php echo site_url('News'); ?>">News &amp; Press</a></li>
+            <li id="menu_active"><a href="<?php echo site_url('News'); ?>">Campaign</a></li>
             <li><a href="help.html">How to Help</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
@@ -55,18 +55,23 @@
         <div class="box1">
           <div class="wrapper">
             <section class="col1">
-              <h2><strong>P</strong>ress<span>About Us</span></h2>
+              <h2><strong>L</strong>ahan kritis<span>Terbengkalai di Kabupaten Bogor</span></h2>
               <div class="line1">
-                <figure class="left marg_right1"><img src="<?php echo base_url(); ?>/assets/images/page3_img1.jpg" alt=""></figure>
-                <p class="pad_bot1"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-                <p class="pad_bot2"> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur. </p>
+                <figure class="left marg_right1"><img src="<?php echo base_url(); ?>assets/images/page1_img1.png" alt=""></figure>
+                <p class="pad_bot1">  Lahan seluas 1 Hektar, dalam kondisi kritis. Terletak di perbukitan curam, diatas perkampungan warga </p>
+                 <h3><b>Rp 182.808.281</b></h3>
+                  <p class="pad_bot2"> terkumpul dari target Rp 300.000.000 </p>
+              </div>
+              <br><br><br>
+              <div class="line1">
+                <a href="<?php echo site_url('Single'); ?>" class="button3">Donasi</a>
               </div>
             </section>
           </div>
         </div>
       </div>
       <div class="wrapper">
-        <ul class="nav">
+        <!-- <ul class="nav">
           <li><a href="#2003">2003</a></li>
           <li><a href="#2004">2004</a></li>
           <li><a href="#2005">2005</a></li>
@@ -76,12 +81,12 @@
           <li><a href="#2009">2009</a></li>
           <li><a href="#2010">2010</a></li>
           <li class="selected"><a href="#2011">2011</a></li>
-        </ul>
+        </ul> -->
       </div>
       <div class="wrapper">
         <div class="box2">
           <div class="wrapper tab-content" id="2011">
-            <section class="col1">
+            <!-- <section class="col1">
               <h4><span>June 31</span>2011</h4>
               <p class="pad_bot2"><strong>Sed ut perspiciatis unde omnis occaecati cupiditate non provident</strong></p>
               <p class="pad_bot1">Natus error sit voluptatem accusantium doloremque laudantium architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
@@ -126,9 +131,9 @@
               <p class="pad_bot1">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
               <h4 class="color3"><span>December 27</span>2005</h4>
               <p class="pad_bot2"><strong>Perspiciatis unde omnis occaecati cupiditate non provident</strong></p>
-              Natus error sit voluptatem accusantium doloremque laudantium architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. </section>
+              Natus error sit voluptatem accusantium doloremque laudantium architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. </section> -->
           </div>
-          <div class="wrapper tab-content" id="2006">
+          <!-- <div class="wrapper tab-content" id="2006">
             <section class="col1">
               <h4><span>April 13</span>2006</h4>
               <p class="pad_bot2"><strong>Merspiciatis unde omnis occaecati cupiditate non provident</strong></p>
@@ -187,14 +192,14 @@
               <h4 class="color3"><span>June 21</span>2010</h4>
               <p class="pad_bot2"><strong>Ut enim ad minima unde omnis occaecati cupiditate non provident</strong></p>
               Natus error sit voluptatem accusantium doloremque laudantium architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. </section>
-          </div>
+          </div> -->
         </div>
       </div>
     </article>
     <!-- / content -->
     <!-- footer -->
     <footer>
-      <div class="wrapper"> <a href="index.html" id="footer_logo"><span>Hope</span>Center</a>
+      <div class="wrapper"> <a href="index.html" id="footer_logo"><span>Wakaf Hutan</span>Center</a>
         <ul id="icons">
           <li><a href="#" class="normaltip"><img src="images/icon1.gif" alt=""></a></li>
           <li><a href="#" class="normaltip"><img src="images/icon2.gif" alt=""></a></li>
@@ -213,8 +218,8 @@
         </nav>
         <div class="tel"><span>+1 800</span>123 45 67</div>
       </div>
-      <div id="footer_text">Copyright &copy; <a href="#">Domain Name</a> All Rights Reserved<br>
-        Design by <a target="_blank" href="http://www.templatemonster.com/">TemplateMonster.com</a></div>
+      <div id="footer_text">Copyright &copy; <a href="#">2018</a> All Rights Reserved<br>
+        Design by <a target="_blank" href="http://www.templatemonster.com/">wakafhutan.com</a></div>
     </footer>
     <!-- / footer -->
   </div>
